@@ -1,12 +1,10 @@
 import React from "react";
-import toast from "react-hot-toast";
-
+// import toast from "react-hot-toast";
+import N from "./Pages/Nav";
 export default function App() {
   return (
     <>
-      <button className="btn bg-primary" onClick={() => toast.success("Done")}>
-        Acid Button
-      </button>
+      <N />
     </>
   );
 }
